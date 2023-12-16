@@ -32,6 +32,7 @@ function AboutSection() {
           href="https://github.com/TereziaPetrovicova"
           target="_blank"
           className="social-button github"
+          rel="noopener noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
@@ -39,6 +40,7 @@ function AboutSection() {
           href="https://www.linkedin.com/in/ter%C3%A9zia-petrovi%C4%8Dov%C3%A1-a767561b0/"
           target="_blank"
           className="social-button linkedin"
+          rel="noopener noreferrer"
         >
           <img src={linkedinIcon} alt="LinkedIn" />
         </a>
