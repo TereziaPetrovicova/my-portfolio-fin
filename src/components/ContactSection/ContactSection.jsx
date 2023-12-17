@@ -3,10 +3,6 @@ import "./ContactSection.css";
 import backgroundVideo from "../../assets/backgroundVideo.mp4";
 
 function ContactSection() {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <div className="contact-section" id="contact">
       <div className="background-title-contact">CONTACT</div>
@@ -18,7 +14,7 @@ function ContactSection() {
         </video>
 
         <div className="form-overlay">
-          <form onSubmit={handleSubmit} name="contact" netlify>
+          <form name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
 
             <h1>Let's talk</h1>
