@@ -18,12 +18,7 @@ function ContactSection() {
         </video>
 
         <div className="form-overlay">
-          <form
-            onSubmit={handleSubmit}
-            name="contact"
-            method="POST"
-            data-netlify="true"
-          >
+          <form onSubmit={handleSubmit} name="contact" netlify>
             <input type="hidden" name="form-name" value="contact" />
 
             <h1>Let's talk</h1>
